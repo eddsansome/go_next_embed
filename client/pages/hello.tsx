@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import Profile from "../components/Profile"
 
-const Home: NextPage = () => {
+const Hello: NextPage = () => {
   return (
     <div>
-      <h1>Index page</h1>
+      <h1>Hello page</h1>
       <Profile/>
     </div>
   )
 }
 
-export default Home
+export default Hello
